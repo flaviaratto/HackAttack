@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Password Strength</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+  </head>
+  <!--HTML code starts here -->
+  <div class="flexbox">
+    <div class="header">
+      <h1 style="color: white; font-size: 45px">How Long Can Your Password Last?<h1> 
+    </div>
+
+    <div class="top">
+      <h2 style="color: white;font-size: 35px">Input your password and we'll tell you how long you can keep it<h2>
+    </div>
+
+    <div class="main">
+      <input id="pass" type="password"></input>
+      <button onclick="accessPassword()">Check</button>
+    </div>
+
+    <div>
+      <p id="days" style="color: white"></p> 
+    </div>
+
+    <div class="description">
+      <p style="color: white;font-size: 18px">* Updating your password regularly can prevent it from being hacked.<br>* Good passwords typically contain at least 8 characters. It should contain atleast 1 uppercase, 1 lowercase, 1 number and one special character.<br>* Strong passwords can be used for a longer time than weak passwords maintaining a higher level of security</p>
+    </div>
+
+  </div> 
+
+  <!--HTML code ends here -->
+  <!--title, what website do, tab for account storage, user account registration  --> 
+  <body style="background-image: url('https://miro.medium.com/max/4042/1*TYAzzTJ60x-qg5N81ElU9A.png');  height: 100%;background-repeat: no-repeat;background-position: center;background-size: auto;">
+    <script src="/static/script.js"></script>
+  </body>
+</html>

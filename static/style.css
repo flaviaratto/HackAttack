@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(161, 218, 255);
+  background-image: url('https://miro.medium.com/max/4042/1*TYAzzTJ60x-qg5N81ElU9A.png');
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1{
+  font-size:4.0em;
+  font-color:white;
+  padding-top:1%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.main{
+  padding: 20px;
+  
+}
+.description{
+  width:60%;
+  font-size: 1.25em;
+  margin-top: 50px;
+}
+
+.flexbox{
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-items:center;
+}
+
+.top{
+  font-size: 1.5em;
+}
+
+#pass{
+  width:25em;
+  height: 2.50em;
+  border-radius: 2%;
+  font-size:2em;
+}
+
+button{
+  width: 6em;
+  height:6em;
+  border-radius:25%;
+  background-color:navy;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+  transition: 0.5s;
+  align-items:center;
+  font-size:1.20em;
+}
+
+button:hover{
+  background-color:white;
+  color:navy;
+  transition: 0.5s;
+}
+
+#days{
+  font-size:2.5em;
+  font-family: "Times New Roman", Times, serif;
+  padding:2%;
+
+}
+
+
+
