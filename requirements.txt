@@ -12,3 +12,7 @@ sklearn==0.0
 bs4==0.0.1
 beautifulsoup4==4.7.1
 google-search==1.0.2
+werkzeug==1.0.1
+ipaddress=1.0
+re==2.2.1
+urllib.request==3.8
