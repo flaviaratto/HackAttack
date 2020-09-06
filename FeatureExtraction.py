@@ -387,7 +387,7 @@ def generate_data_set(url):
         data_set.append(1)
 
     #28. Google_Index
-    site=search(url, 5)
+    site=GoogleSearch().search(url, 5)
     if site:
         data_set.append(1)
     else:
