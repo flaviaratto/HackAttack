@@ -13,4 +13,4 @@ bs4==0.0.1
 beautifulsoup4==4.7.1
 google-search==1.0.2
 werkzeug==1.0.1
-urllib2
+urllib2==2.7
