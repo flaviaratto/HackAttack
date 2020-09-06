@@ -12,4 +12,5 @@ sklearn==0.0
 bs4==0.0.1
 beautifulsoup4==4.7.1
 google-search==1.0.2
+googlesearch
 werkzeug==1.0.1
