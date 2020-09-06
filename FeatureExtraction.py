@@ -4,8 +4,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import socket
 import requests
-# from googlesearch import search
-from googlesearch.googlesearch import GoogleSearch
+from googlesearch import search
 import whois
 from datetime import datetime
 import time
@@ -387,7 +386,7 @@ def generate_data_set(url):
         data_set.append(1)
 
     #28. Google_Index
-    site=GoogleSearch().search(url, 5)
+    site=search(url, 5)
     if site:
         data_set.append(1)
     else:
