@@ -11,6 +11,6 @@ six==1.14.0
 sklearn==0.0
 bs4==0.0.1
 beautifulsoup4==4.7.1
-google-search==1.0.2
+google==3.0.0
 werkzeug==1.0.1
 urllib3==1.25.10
