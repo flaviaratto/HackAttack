@@ -1,5 +1,5 @@
 python-whois==0.7.3
-lxml==2.9.2
+lxml==3.4.2
 Flask==1.1.2
 numpy==1.18.1
 keras==2.4.3
