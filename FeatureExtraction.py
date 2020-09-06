@@ -8,6 +8,7 @@ from googlesearch import search
 import whois
 from datetime import datetime
 import time
+import lxml
 from dateutil.parser import parse as date_parse
 
 # Calculates number of months
@@ -367,7 +368,7 @@ def generate_data_set(url):
 
     #26. web_traffic
     try:
-        rank = BeautifulSoup(urllib.request.urlopen("http://data.alexa.com/data?cli=10&dat=s&url=" + url).read(), "xml").find("REACH")['RANK']
+        rank = BeautifulSoup(urllib.request.urlopen("http://data.alexa.com/data?cli=10&dat=s&url=" + url).read(), features="xml").find("REACH")['RANK']
         rank= int(rank)
         if (rank<100000):
             data_set.append(1)
