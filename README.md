@@ -25,4 +25,4 @@ For anomaly detection, our next step will be to do the detection for real-time d
 Including details like name, domain and location of the URL while detection malicious websites.
 
 ## Try it out
-howdycyberhack.herokuapp.com
+http://howdycyberhack.herokuapp.com/
