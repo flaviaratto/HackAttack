@@ -7,7 +7,8 @@ HackAttack focuses on three different cyber attacks.
 Anomaly detection - Used machine learning techniques like SVM along with python Voila to create a dashboard that alerts network administrators and security experts when a network is potentially under attack.
 Password strength - Uses an advanced algorithm created in JavaScript that takes a password as an input and returns how long that password could be used before it is considered unsafe.
 Phishing URL detection - Used Machine techniques like feature extraction that extracts features from the URL to help classify them into phishing and legitimate URL.
-How we built it
+
+## How we built it
 This web page runs the python program consisting of machine learning models for phishing URL and anomaly detection and JavaScript program for detecting password strength in the back-end via flask App The front-end of this application has been built using HTML, CSS and JavaScript.
 
 ## Challenges we ran into
